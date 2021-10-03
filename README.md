@@ -2,6 +2,14 @@
 
 Hacktoberfest Contribution
 
+#Cara Berpartisipasi
+
+1. Fork
+2. Clone
+3. Tambahkan List Profile di Home.dart
+4. Tambahkan file dart dengan isi cv anda
+5. push dan pull request
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
