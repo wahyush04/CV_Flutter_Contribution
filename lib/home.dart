@@ -1,3 +1,4 @@
+import 'package:cv_flutter_contribution/pranav_profile.dart';
 import 'package:cv_flutter_contribution/wahyu_profile.dart';
 import 'package:flutter/material.dart';
 
@@ -24,6 +25,20 @@ class Home extends StatelessWidget {
               child: ListTile(
                 leading: FlutterLogo(),
                 title: Text("Wahyu's Profile"),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => PranavProfile()));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.android_rounded,
+                  color: Colors.teal,
+                ),
+                title: Text("Pranav's Profile"),
               ),
             ),
           )
