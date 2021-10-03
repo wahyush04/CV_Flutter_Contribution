@@ -10,7 +10,12 @@ Hacktoberfest Contribution
 4. Tambahkan file dart dengan isi cv anda
 5. push dan pull request
 
+# CONTRIBUTOR
+
+1. Wahyu
+
 ## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
