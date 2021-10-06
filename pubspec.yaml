@@ -66,6 +66,7 @@ flutter:
     - images/jayadi.jpg
     - images/david.JPG
     - images/lana.JPG
+    - images/dario.png
     
   fonts:
     - family: Pacifico
