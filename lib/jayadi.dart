@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class WahyuProfile extends StatelessWidget {
+class JayadiProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
