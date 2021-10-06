@@ -66,6 +66,7 @@ flutter:
     - images/jayadi.jpg
     - images/david.JPG
     - images/lana.JPG
+    
   fonts:
     - family: Pacifico
       fonts:

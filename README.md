@@ -6,13 +6,18 @@ Hacktoberfest Contribution
 
 1. Fork
 2. Clone
-3. Tambahkan List Profile di Home.dart
-4. Tambahkan file dart dengan isi cv anda
+3. Add List Profile di Home.dart
+4. Add dart file with your cv
 5. push dan pull request
 
 # CONTRIBUTOR
 
-1. Wahyu
+1. wahyush04
+2. PranavNair01
+3. hilmykun
+4. muhammadjayadi
+5. lalanategar
+6. davidgeri
 
 ## Getting Started
 

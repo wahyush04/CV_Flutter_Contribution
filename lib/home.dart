@@ -79,7 +79,7 @@ class Home extends StatelessWidget {
           InkWell(
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => GeriProfile()));
+                  MaterialPageRoute(builder: (context) => DavidProfile()));
             },
             child: const Card(
               child: ListTile(
@@ -90,7 +90,7 @@ class Home extends StatelessWidget {
                 title: Text("David"),
               ),
             ),
-          )
+          ),
           InkWell(
             onTap: () {
               Navigator.push(context,

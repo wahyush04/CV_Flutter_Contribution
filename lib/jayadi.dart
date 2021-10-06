@@ -3,7 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class DavidProfile extends StatelessWidget {
+class JayadiProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +27,7 @@ class DavidProfile extends StatelessWidget {
                       alignment: const Alignment(0.0,2.5),
                       child: const CircleAvatar(
                         backgroundImage: AssetImage(
-                            'images/david.JPG'
+                            'images/jayadi.jpg'
                         ),
                         radius: 60.0,
                       ),
@@ -38,7 +38,7 @@ class DavidProfile extends StatelessWidget {
                   height: 60,
                 ),
                 const Text(
-                  "David Geri Pradipta Riadi"
+                  "M. Jayadi"
                   ,style: TextStyle(
                     fontSize: 25.0,
                     color:Colors.blueGrey,
@@ -50,7 +50,7 @@ class DavidProfile extends StatelessWidget {
                   height: 10,
                 ),
                 const Text(
-                  "Mataram, NTB"
+                  "Lombok Tengah, NTB"
                   ,style: TextStyle(
                     fontSize: 18.0,
                     color:Colors.black45,

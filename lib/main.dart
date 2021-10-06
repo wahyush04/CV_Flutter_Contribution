@@ -1,5 +1,4 @@
 import 'package:cv_flutter_contribution/home.dart';
-import 'package:cv_flutter_contribution/wahyu_profile.dart';
 import 'package:flutter/material.dart';
 
 void main() {
