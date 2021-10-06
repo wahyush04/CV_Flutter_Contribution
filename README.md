@@ -1,12 +1,13 @@
 # cv_flutter_contribution
 
-Hacktoberfest Contribution
+Hacktoberfest 2021 Contribution 
+Contribute your best profile pages with flutter
 
-# Cara Berpartisipasi
+# HOW TO CONTRIBUTE
 
 1. Fork
 2. Clone
-3. Add List Profile di Home.dart
+3. Add List Profile at Home.dart
 4. Add dart file with your cv
 5. push dan pull request
 
