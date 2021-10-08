@@ -19,6 +19,7 @@ Contribute your best profile pages with flutter
 4. muhammadjayadi
 5. lalanategar
 6. davidgeri
+7. alit-commits
 
 ## Getting Started
 
