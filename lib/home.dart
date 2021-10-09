@@ -1,3 +1,4 @@
+import 'package:cv_flutter_contribution/aman_profile.dart';
 import 'package:cv_flutter_contribution/dario_profile.dart';
 import 'package:cv_flutter_contribution/jayadi.dart';
 import 'package:cv_flutter_contribution/pranav_profile.dart';
@@ -119,6 +120,21 @@ class Home extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text("Dario"),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const AmanProfile()));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.android_rounded,
+                  color: Colors.teal,
+                ),
+                title: Text("Aman"),
               ),
             ),
           )
