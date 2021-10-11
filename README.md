@@ -22,6 +22,7 @@ Contribute your best profile pages with flutter
 7. alit-commits
 8. aman1210
 9. rudratejC
+10. itsmurphy
 
 ## Getting Started
 
