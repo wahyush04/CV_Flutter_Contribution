@@ -68,6 +68,7 @@ flutter:
     - images/lana.JPG
     - images/dario.png
     - images/aman.jpg
+    - images/itsmurphy.png
     
   fonts:
     - family: Pacifico
