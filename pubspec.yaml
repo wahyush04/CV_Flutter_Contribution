@@ -69,7 +69,8 @@ flutter:
     - images/dario.png
     - images/aman.jpg
     - images/itsmurphy.png
-    
+    - images/ayush.jpg
+
   fonts:
     - family: Pacifico
       fonts:
