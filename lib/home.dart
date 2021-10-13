@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:cv_flutter_contribution/david.dart';
 import 'package:cv_flutter_contribution/lana_profile.dart';
 import 'package:cv_flutter_contribution/ayush_profile.dart';
+import 'package:cv_flutter_contribution/danushan.dart';
 
 import 'hilmykun_profile.dart';
 
@@ -159,8 +160,10 @@ class Home extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const ProfileAyush()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const ProfileAyush()));
             },
             child: const Card(
               child: ListTile(
@@ -169,6 +172,21 @@ class Home extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text("Ayush"),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => dhanuprofile()));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.android_rounded,
+                  color: Colors.teal,
+                ),
+                title: Text("Danushan"),
               ),
             ),
           ),
