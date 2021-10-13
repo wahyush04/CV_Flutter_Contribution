@@ -23,6 +23,7 @@ Contribute your best profile pages with flutter
 8. aman1210
 9. rudratejC
 10. itsmurphy
+11. NuCLeUs2
 
 ## Getting Started
 
