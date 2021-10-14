@@ -16,7 +16,7 @@ class ProfileAyush extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              bottom: (mediaQuery.height - containerHeight)/2,
+              bottom: 0,
               child: Container(
                 padding: const EdgeInsets.only(left: 28, right: 28),
                 height: containerHeight,
