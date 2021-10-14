@@ -23,7 +23,7 @@ class ProfileAyush extends StatelessWidget {
                 width: containerWidth,
                 decoration: const BoxDecoration(
                   color: Colors.white,
-                  borderRadius: BorderRadius.circular(55)
+            borderRadius: BorderRadius.circular(55)
                 ),
                 child: Stack(
                     alignment: Alignment.center,
