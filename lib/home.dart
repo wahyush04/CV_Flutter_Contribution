@@ -2,6 +2,7 @@ import 'package:cv_flutter_contribution/aman_profile.dart';
 import 'package:cv_flutter_contribution/dario_profile.dart';
 import 'package:cv_flutter_contribution/itsmurphy_profile.dart';
 import 'package:cv_flutter_contribution/jayadi.dart';
+import 'package:cv_flutter_contribution/khushboo_profile.dart';
 import 'package:cv_flutter_contribution/pranav_profile.dart';
 import 'package:cv_flutter_contribution/wahyu_profile.dart';
 import 'package:flutter/material.dart';
@@ -172,6 +173,23 @@ class Home extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text("Ayush"),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const KhushbooProfile()));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.android_rounded,
+                  color: Colors.teal,
+                ),
+                title: Text("Khushboo"),
               ),
             ),
           ),
