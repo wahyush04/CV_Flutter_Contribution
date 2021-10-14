@@ -21,7 +21,7 @@ class ProfileAyush extends StatelessWidget {
                 padding: const EdgeInsets.only(left: 28, right: 28),
                 height: containerHeight,
                 width: containerWidth,
-                decoration: const BoxDecoration(
+                decoration: BoxDecoration(
                   color: Colors.white,
             borderRadius: BorderRadius.circular(55)
                 ),
