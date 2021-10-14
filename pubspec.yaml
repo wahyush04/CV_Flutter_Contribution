@@ -70,6 +70,8 @@ flutter:
     - images/aman.jpg
     - images/itsmurphy.png
     - images/ayush.jpg
+    - images/de.png
+    - images/dhanu.jpeg
 
   fonts:
     - family: Pacifico
