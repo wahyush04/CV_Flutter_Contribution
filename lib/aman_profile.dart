@@ -28,72 +28,59 @@ class AmanProfile extends StatelessWidget {
                     topRight: Radius.circular(55),
                   ),
                 ),
-                child: Stack(
-                    alignment: Alignment.center,
-                    clipBehavior: Clip.none,
-                    children: [
-                      Positioned(
-                        bottom: imagePosition,
-                        child: const CircleAvatar(
-                          backgroundImage: AssetImage("images/aman.jpg"),
-                          maxRadius: 80,
+                child: Stack(alignment: Alignment.center, clipBehavior: Clip.none, children: [
+                  Positioned(
+                    bottom: imagePosition,
+                    child: const CircleAvatar(
+                      backgroundImage: AssetImage("images/aman.jpg"),
+                      maxRadius: 80,
+                    ),
+                  ),
+                  SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        const Text('Aman Srivastava', style: TextStyle(fontSize: 28, fontFamily: "Pacifico")),
+                        const Text(
+                          "Varanasi, India",
+                          style: TextStyle(
+                            fontSize: 18.0,
+                            color: Colors.black45,
+                            letterSpacing: 2.0,
+                            fontWeight: FontWeight.w300,
+                          ),
                         ),
-                      ),
-                      SingleChildScrollView(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          mainAxisAlignment: MainAxisAlignment.end,
-                          children: [
-                            const Text(
-                              'Aman Srivastava',
+                        const SizedBox(height: 10),
+                        const Text(
+                          "Student at Kamla Nehru Institute of Technology",
+                          textAlign: TextAlign.center,
+                          style: TextStyle(fontSize: 15.0, color: Colors.black45, letterSpacing: 2.0, fontWeight: FontWeight.w300),
+                        ),
+                        const SizedBox(height: 15),
+                        const Card(
+                          child: Padding(
+                            padding: EdgeInsets.all(8.0),
+                            child: Text(
+                              "SKILLS",
                               style: TextStyle(
-                                  fontSize: 28, fontFamily: "Pacifico"),
-                            ),
-                            const Text(
-                              "Varanasi, India",
-                              style: TextStyle(
-                                  fontSize: 18.0,
-                                  color: Colors.black45,
-                                  letterSpacing: 2.0,
-                                  fontWeight: FontWeight.w300),
-                            ),
-                            const SizedBox(
-                              height: 10,
-                            ),
-                            const Text(
-                              "Student at Kamla Nehru Institute of Technology",
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                  fontSize: 15.0,
-                                  color: Colors.black45,
-                                  letterSpacing: 2.0,
-                                  fontWeight: FontWeight.w300),
-                            ),
-                            const SizedBox(
-                              height: 15,
-                            ),
-                            const Card(
-                              child: Padding(
-                                padding: EdgeInsets.all(8.0),
-                                child: Text(
-                                  "SKILLS",
-                                  style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold,
-                                      letterSpacing: 2.0),
-                                ),
+                                fontSize: 18,
+                                fontWeight: FontWeight.bold,
+                                letterSpacing: 2.0,
                               ),
                             ),
-                            const SizedBox(height: 15),
-                            ...addSkills('Flutter', 0.7, Colors.purple),
-                            ...addSkills('C++', 0.5, Colors.red),
-                            ...addSkills('Angular', 0.6, Colors.green),
-                            ...addSkills('Kotlin', 0.3, Colors.amber),
-                            ...addSkills('Photoshop', 0.4, Colors.indigo)
-                          ],
+                          ),
                         ),
-                      ),
-                    ]),
+                        const SizedBox(height: 15),
+                        ...addSkills('Flutter', 0.7, Colors.purple),
+                        ...addSkills('C++', 0.5, Colors.red),
+                        ...addSkills('Angular', 0.6, Colors.green),
+                        ...addSkills('Kotlin', 0.3, Colors.amber),
+                        ...addSkills('Photoshop', 0.4, Colors.indigo)
+                      ],
+                    ),
+                  ),
+                ]),
               ),
             ),
           ],

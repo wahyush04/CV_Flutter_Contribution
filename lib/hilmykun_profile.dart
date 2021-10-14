@@ -12,11 +12,11 @@ class HilmyProfile extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                CircleAvatar(
+                const CircleAvatar(
                   radius: 50.0,
                   backgroundImage: AssetImage('images/hilmy.jpg'),
                 ),
-                Text(
+               const Text(
                   'Muhammad Hilmy Al Jauzy',
                   style: TextStyle(
                     fontSize: 40.0,
@@ -25,13 +25,12 @@ class HilmyProfile extends StatelessWidget {
                     fontFamily: 'Roboto',
                   ),
                 ),
-                SizedBox(
-                  height: 50,
+                const SizedBox(
+                  height: 50
                 ),
-                Text('21 Years Old'),
-                SizedBox(
-                  height: 10,
-                ),
+               const Text('21 Years Old'),
+                const SizedBox(
+                  height: 10                ),
                 Text(
                   'Mobile Developers And UI/UX Design',
                   style: TextStyle(
@@ -42,7 +41,7 @@ class HilmyProfile extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                SizedBox(
+               const SizedBox(
                   height: 20.0,
                   width: 150.0,
                   child: Divider(
@@ -52,11 +51,11 @@ class HilmyProfile extends StatelessWidget {
                 Card(
                   color: Colors.white,
                   margin:
-                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                    const  EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                   child: ListTile(
-                    leading: Icon(
+                    leading:const Icon(
                       Icons.phone,
-                      color: Colors.purple,
+                      color: Colors.purple
                     ),
                     title: Text(
                       '+6288213806514',
@@ -70,14 +69,14 @@ class HilmyProfile extends StatelessWidget {
                 ),
                 Card(
                   color: Colors.white,
-                  margin: EdgeInsets.symmetric(
+                  margin:const EdgeInsets.symmetric(
                     vertical: 10.0,
-                    horizontal: 25.0,
+                    horizontal: 25.0
                   ),
                   child: ListTile(
-                    leading: Icon(
+                    leading:const Icon(
                       Icons.email,
-                      color: Colors.teal,
+                      color: Colors.teal
                     ),
                     title: Text(
                       'sucifebryani550@gmail.com',
@@ -91,14 +90,14 @@ class HilmyProfile extends StatelessWidget {
                 ),
                 Card(
                   color: Colors.white,
-                  margin: EdgeInsets.symmetric(
+                  margin:const EdgeInsets.symmetric(
                     vertical: 10.0,
-                    horizontal: 25.0,
+                    horizontal: 25.0
                   ),
                   child: ListTile(
-                    leading: Icon(
+                    leading:const Icon(
                       Icons.work,
-                      color: Colors.purple,
+                      color: Colors.purple
                     ),
                     title: Text(
                       'Im Freelance In UpWork',
