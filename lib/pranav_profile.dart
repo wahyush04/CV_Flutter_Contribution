@@ -12,11 +12,11 @@ class PranavProfile extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 radius: 50.0,
                 backgroundImage: AssetImage('images/Pranav.jpg'),
               ),
-              Text(
+              const Text(
                 'Pranav Nair',
                 style: TextStyle(
                   fontSize: 40.0,
@@ -35,7 +35,7 @@ class PranavProfile extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20.0,
                 width: 150.0,
                 child: Divider(
@@ -44,9 +44,9 @@ class PranavProfile extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.phone,
                     color: Colors.teal,
                   ),
@@ -62,12 +62,12 @@ class PranavProfile extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(
+                margin: const EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
                 child: ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.email,
                     color: Colors.teal,
                   ),
