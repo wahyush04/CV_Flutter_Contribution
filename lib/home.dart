@@ -10,8 +10,8 @@ import 'package:cv_flutter_contribution/david.dart';
 import 'package:cv_flutter_contribution/lana_profile.dart';
 import 'package:cv_flutter_contribution/ayush_profile.dart';
 import 'package:cv_flutter_contribution/danushan.dart';
-
 import 'hilmykun_profile.dart';
+import 'package:cv_flutter_contribution/nimrat_profile.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -205,6 +205,23 @@ class Home extends StatelessWidget {
                   color: Colors.teal,
                 ),
                 title: Text("Danushan"),
+              ),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const NimratProfile()));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: Icon(
+                  Icons.android_rounded,
+                  color: Colors.teal,
+                ),
+                title: Text("Nimrat"),
               ),
             ),
           ),
