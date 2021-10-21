@@ -7,9 +7,18 @@ Contribute your best profile pages with flutter
 
 1. Fork
 2. Clone
-3. Add List Profile at Home.dart
+3. Make your own profile page
 4. Add dart file with your cv
-5. push dan pull request
+5. Add your details map in 'profilesMapList' in "./controllers/home_controller.dart" file.
+   -> Make sure that the format of map is as follows:
+   {
+    'name' : <Your Name>,
+    'profileWidget' : <Your CV Page Widget>,
+    'leadingWidget' : <icon you want to use as leading icon for listTile on homepage>
+   }
+6. push, then pull request.
+
+HAPPY CODING...
 
 # CONTRIBUTOR
 
