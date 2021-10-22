@@ -13,6 +13,8 @@ import 'package:cv_flutter_contribution/danushan.dart';
 import 'hilmykun_profile.dart';
 import 'package:cv_flutter_contribution/nimrat_profile.dart';
 
+import 'kshitij_profile.dart';
+
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -24,6 +26,23 @@ class Home extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
+          InkWell(
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) {
+                return KshitijProfile();
+              }));
+            },
+            child: const Card(
+              child: ListTile(
+                leading: CircleAvatar(
+                  backgroundImage:
+                  NetworkImage('https://avatars.githubusercontent.com/u/44705390?v=4'),
+                  backgroundColor: Colors.transparent,
+                ),
+                title: Text("Kshitij's Profile"),
+              ),
+            ),
+          ),
           InkWell(
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) {
